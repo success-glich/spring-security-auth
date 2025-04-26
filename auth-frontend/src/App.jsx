@@ -156,8 +156,8 @@ function App() {
             </div>
 
             <div>
-              <label htmlFor="username">Username:</label>
-              <input type="password" id="username" value={password} onChange={(e) => setPassword(e.target.value)} />
+              <label htmlFor="password">Password:</label>
+              <input type="password" id="password" value={password} onChange={(e) => setPassword(e.target.value)} />
             </div>
 
             <div>
